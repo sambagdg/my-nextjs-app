@@ -4,7 +4,7 @@ import React from "react";
 
 const DrinksList = ({drinks}) => {
     return (
-        <ul className="grid sm:grid-cols-3 gap-4 mt-6 mx-auto">
+        <ul className="grid sm:grid-cols-2 gap-4 mt-6 ">
             {drinks.map((drink) => {
                 return <li key={drink.idDrink}>
                     <Link 
@@ -16,7 +16,7 @@ const DrinksList = ({drinks}) => {
                                 src={drink.strDrinkThumb} 
                                 fill 
                                 alt={drink.strDrink} 
-                                sizes='(max-width:768px) 100vw (max-width: 12OOpx) 50vw' 
+                                sizes='(max-width:768px) 120vw (max-width: 12OOpx) 70vw' 
                                 className="rounded-md object-cover opacity-90 hover:opacity-100 transition-opacity shadow-2xl"
                             />
                         </div>

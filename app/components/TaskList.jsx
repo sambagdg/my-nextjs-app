@@ -30,5 +30,4 @@ const TaskList = async () => {
     </ul>
   );
 };
-
 export default TaskList;
